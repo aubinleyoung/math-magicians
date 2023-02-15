@@ -20,7 +20,7 @@ const Calculator = () => {
       <button type="button" className="ac btn" onClick={operateEvents}>AC</button>
       <button type="button" className="one btn" onClick={operateEvents}>+/-</button>
       <button type="button" className="two btn" onClick={operateEvents}>%</button>
-      <button type="button" className="tree btn" onClick={operateEvents}>+</button>
+      <button type="button" className="tree btn" onClick={operateEvents}>÷</button>
       <button type="button" className="four btn" onClick={operateEvents}>7</button>
       <button type="button" className="five btn" onClick={operateEvents}>8</button>
       <button type="button" className="six btn" onClick={operateEvents}>9</button>
