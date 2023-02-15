@@ -10,9 +10,9 @@
 
 .display {
   grid-column: 1/5;
-  background: #858694;
   text-align: right;
-  padding: 40px;
+  font-size: 50px;
+  background: #858694;
   cursor: pointer;
 }
 
