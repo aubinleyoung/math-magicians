@@ -33,8 +33,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Setup]**
-- **[Components]**
+- **[Interactive_Calculator]**
+- **[Math_quotes]**
 - **[Events]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
