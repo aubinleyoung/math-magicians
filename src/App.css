@@ -1,6 +1,7 @@
 
 .App {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: rgb(85, 85, 85);
@@ -12,4 +13,29 @@
   align-items: center;
   justify-content: center;
   width: 50%;
+}
+.nav{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  padding: 0 2rem;
+  background:rgb(117, 117, 119);
+  display: flex;
+  justify-content: space-between;
+}
+.nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap:10px;
+ 
+}
+.nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav a:hover{
+background: #5555;
 }
