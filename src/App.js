@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 
 import Home from './components/Home';
@@ -8,25 +9,19 @@ import Calculator from './components/Calculator';
 import Quote from './components/Quote';
 
 function App() {
-  let components;
-  switch (window.location.pathname) {
-    case '/':
-      components = <Home />;
-      break;
-    case '/calculator':
-      components = <Calculator />;
-      break;
-    case '/quote':
-      components = <Quote />;
-      break;
-    default:
-      components = null;
-      break;
-  }
   return (
     <>
       <Navbar />
-      {components}
+      <div className="wrapper">
+        <Routes>
+
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
+
+        </Routes>
+      </div>
+
     </>
 
   );
@@ -34,10 +29,5 @@ function App() {
 
 export default App;
 // <div className="App">
-
-//   <div className="wrapper">
-
-//     <Calculator />
-//   </div>
 
 // </div>
