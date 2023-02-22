@@ -8,6 +8,8 @@ import Home from './components/Home';
 import Calculator from './components/Calculator';
 import Quote from './components/Quote';
 
+import Footer from './components/Footer';
+
 function App() {
   return (
     <>
@@ -20,6 +22,7 @@ function App() {
           <Route path="/quote" element={<Quote />} />
 
         </Routes>
+        <Footer />
       </div>
 
     </>

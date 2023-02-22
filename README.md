@@ -34,7 +34,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Interactive_Calculator]**
-- **[Math_quotes]**
+- **[Math_quote]**
 - **[Events]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,9 +133,8 @@ Launches the test runner in the interactive watch mode.(The test is not yet avai
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Refactor_with_hooks]**
-- [ ] **[Full_website_with_navigation]**
-- [ ] **[Tests]**
+
+- [ ] **[Testing]**
 - [ ] **[Deployment]**
 
 
