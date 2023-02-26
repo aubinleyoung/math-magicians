@@ -197,3 +197,6 @@ p {
 h1 {
   font-size: 50px;
 }
+.links:focus{
+  color: white;
+}

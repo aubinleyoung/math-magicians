@@ -7,9 +7,9 @@ export default function Navbar() {
     <nav className="nav">
       <h2>Math Magicians</h2>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/calculator">Calculator</Link></li>
-        <li><Link to="/quote">Quote</Link></li>
+        <li><Link to="/" className="links">Home</Link></li>
+        <li><Link to="/calculator" className="links">Calculator</Link></li>
+        <li><Link to="/quote" className="links">Quote</Link></li>
       </ul>
     </nav>
 
